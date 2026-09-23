@@ -1,0 +1,12 @@
+#insert "forcefield.itp"
+#insert "dme.itp"
+#insert "fsi.itp"
+#insert "li.itp"
+
+[system]
+1M LiFSI
+
+[molecules]
+DME 100
+FSI 11
+Li 11
