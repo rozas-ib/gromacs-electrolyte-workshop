@@ -1,7 +1,7 @@
-#insert "forcefield.itp"
-#insert "dme.itp"
-#insert "fsi.itp"
-#insert "li.itp"
+#include "forcefield.itp"
+#include "dme.itp"
+#include "fsi.itp"
+#include "li.itp"
 
 [system]
 1M LiFSI
