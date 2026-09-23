@@ -1,0 +1,18 @@
+{
+    "name": "gromacs-electrolyte-worshop",
+
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+
+    "postCreateCommand": "gmx --version && python -c \"import MDAnalysis; print('MDAnalysis', MDAnalysis.__version__)\""
+}
