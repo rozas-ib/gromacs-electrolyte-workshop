@@ -7,7 +7,8 @@ RUN apt-get update && \
     export DEBIAN_FRONTEND=noninteractive && \
     apt-get install -y --no-install-recommends \
         gromacs \
-        python3 \
+	gnuplot-nox\
+	python3 \
         python3-pip \
         python3-venv \
         git \
